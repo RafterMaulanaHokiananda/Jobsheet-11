@@ -77,10 +77,7 @@ public class CobaOperasiString {
         System.out.println(String.format("Uang saya %,.4f", d));
         
         System.out.println(String.format(Locale.forLanguageTag("in-ID"),"Uang saya Rp %,.2f", d));
-                
-            
- 
-            
+              
     
         }
     }
