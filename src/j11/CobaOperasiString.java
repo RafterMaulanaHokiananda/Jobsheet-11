@@ -35,7 +35,7 @@ public class CobaOperasiString {
         System.out.println("isi variabel z : "+ r);
         System.out.println("isi x sama dengan r (Case Sensitive)" + x.equals(r));
         System.out.println("isi x sama dengan r (Not Case Sensitive "+ x.equalsIgnoreCase(r));
-        
+    
         System.out.println("perbandingan isi x dengan y : " + x.compareTo(y));
         System.out.println("perbandingan isi x dengan z (Case Sensitive)" + x.compareTo(z));
         System.out.println("perbandingan isi x dengan z (Case Sensitive)" + x.compareTo(r));
@@ -55,7 +55,6 @@ public class CobaOperasiString {
         System.out.println("isi variabel t tanpa spasi : \""+ t.trim());
         
         System.out.println("gabungkan isi vaiabel x dan r : "+ x.concat(r));
-        
         System.out.println("karakter mulai posisi 3 di variabel x : " + x.substring(3));
         System.out.println("karakter mulai posisi 3-5 di variabel x : " + x.substring(3,6));
         
@@ -78,7 +77,6 @@ public class CobaOperasiString {
         
         System.out.println(String.format(Locale.forLanguageTag("in-ID"),"Uang saya Rp %,.2f", d));
               
-    
         }
     }
 
