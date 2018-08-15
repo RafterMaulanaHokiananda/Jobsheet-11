@@ -52,6 +52,10 @@ public class ConvertVocal2Angka {
             System.out.println(arrKal[i]+" => "+arrcon[i]);
     }    
     
-        
+     private static void tampilHasil(String convert){
+           System.out.println("Kalimat Alay Angka : " + convert);
+    
+    tampilHasil(convert);
+    }    
    
 }
