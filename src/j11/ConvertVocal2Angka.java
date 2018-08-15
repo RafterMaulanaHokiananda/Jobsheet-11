@@ -44,5 +44,14 @@ public class ConvertVocal2Angka {
     }
     String convert = vocal2Angka(kalimat);
     
+    private static void tampilPerKata(String kalimat, String convert){
+        String[]arrKal = kalimat.split(" ");
+        String[]arrcon = convert.split(" ");
+        
+        for(int i=0;i<arrKal.length;i++)
+            System.out.println(arrKal[i]+" => "+arrcon[i]);
+    }    
+    
+        
    
 }
