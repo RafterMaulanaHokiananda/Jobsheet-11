@@ -15,5 +15,11 @@ public class ConvertVocal2Angka {
         
         System.out.println("\nConvert Kalimat Alay Angka (Vokal Ke Angka)\n");
     }
-    
+    public static void main(String[] args) {
+      
+        String identitas = " Rafter Maulana Hokiananda / X RPL 2 / 27 ";
+        
+        tampilJudul(identitas); 
+    }    
+   
 }
